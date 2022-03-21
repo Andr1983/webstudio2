@@ -1,0 +1,24 @@
+//base
+@import "./base/common";
+@import "./base/container";
+//utils
+@import "./utils/visually-hidden";
+//components
+@import "./components/effect-button";
+@import "./components/modal-btn";
+@import "./components/backdrop";
+@import "./components/modal-form";
+@import "./components/close-btn";
+@import "./components/burger-btn";
+@import "./components/backdrop-mobile";
+//layout
+@import "./layout/header";
+@import "./layout/effect";
+@import "./layout/antenna-svg";
+@import "./layout/services";
+@import "./layout/our-team";
+@import "./layout/regular-customers";
+@import "./layout/footer";
+//portfolio
+@import "./layout/portfolio/navigation";
+@import "./layout/portfolio/cards";

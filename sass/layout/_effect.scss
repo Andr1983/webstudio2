@@ -1,0 +1,78 @@
+.section_effect {
+	padding-top: 118px;
+	padding-bottom: 118px;
+	max-width: 480px;
+	background-position: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	background-size: cover;
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/heroM1x.jpg");
+}
+// dpr2 и 280px+
+@media (min-device-pixel-ratio: 2) and (min-width: 280px),
+	(min-resolution: 192dpi) and (min-width: 280px),
+	(min-resolution: 2dppx) and (min-width: 280px) {
+	.section_effect {
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../img/hero/heroM@2x.jpg);
+	}
+}
+.effect-zag {
+	padding-bottom: 30px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 26px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+// tablet
+@media screen and (min-width: 768px) {
+	.section_effect {
+		max-width: 768px;
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../img/hero/heroT1x.jpg);
+	}
+}
+// dpr2 и 768px+
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+	(min-resolution: 192dpi) and (min-width: 768px),
+	(min-resolution: 2dppx) and (min-width: 768px) {
+	.section_effect {
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../img/hero/heroT@2x.jpg);
+	}
+}
+
+// Desktop
+@media screen and (min-width: 1200px) {
+	.section_effect {
+		max-width: 2000px;
+		padding-top: 200px;
+		padding-bottom: 200px;
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../img/hero/heroD1x.jpg);
+	}
+	.effect-zag {
+		padding-bottom: 30px;
+		font-size: 44px;
+		line-height: 60px;
+		text-align: center;
+		letter-spacing: 0.06em;
+	}
+}
+// dpr2 и 768px+
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+	(min-resolution: 192dpi) and (min-width: 1200px),
+	(min-resolution: 2dppx) and (min-width: 1200px) {
+	.section_effect {
+		background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+			url(../img/hero/heroD@2x.jpg);
+	}
+}
+
+

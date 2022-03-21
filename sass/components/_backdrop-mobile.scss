@@ -1,0 +1,130 @@
+.mobile-menu {
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #ffffff;
+	overflow: auto;
+
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 500ms linear, visibility 500ms linear;
+}
+.mobile-menu__conteyner {
+	padding: 10px 15px 48px 40px;
+}
+.burger-btn__icon {
+	&:hover {
+		fill: #2196f3;
+	}
+}
+.mobile-menu__close-btn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+.mobile-menu__conteyner {
+	position: relative;
+}
+.close-btn__icon {
+	&:hover {
+		fill: #2196f3;
+	}
+}
+.mobile-menu.is-open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+.nav-list {
+	margin-top: 48px;
+}
+.nav-list__item {
+	margin-bottom: 32px;
+}
+.nav-list__item:last-child {
+	margin-bottom: 0;
+}
+.nav-list__link {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 47px;
+	letter-spacing: 0.02em;
+	color: #212121;
+
+	&:hover {
+		color: #2196f3;
+	}
+}
+.contact-list {
+	margin-top: 302px;
+	margin-bottom: 64px;
+}
+.contact-list__item {
+	margin-bottom: 32px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.contact-list__link {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	color: #757575;
+
+	&:hover,
+	&:focus {
+		color: #2196f3;
+	}
+}
+.contact-list__link-ad {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	color: #757575;
+
+	&:hover,
+	&:focus {
+		color: #2196f3;
+	}
+}
+.networks-list {
+	display: flex;
+}
+.networks-list__item:not(:last-child) {
+	margin-right: 20px;
+	padding-right: 10px;
+	border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.networks-list__link {
+	display: block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.02em;
+	color: #757575;
+
+	&:hover,
+	&:focus {
+		color: #2196f3;
+	}
+}
+.nav-socials__item:not(:last-child) {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid rgba(33, 33, 33, 0.2);
+}

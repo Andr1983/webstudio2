@@ -1,0 +1,29 @@
+.image__photo {
+	display: block;
+	width: 100%;
+}
+.conteyner {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+//480+
+@media screen and (min-width: 480px) {
+	.conteyner {
+		width: 480px;
+		margin: 0 auto;
+	}
+}
+//768+
+@media screen and (min-width: 768px) {
+	.conteyner {
+		width: 768px;
+	}
+}
+//1600+
+@media screen and (min-width: 1200px) {
+	.conteyner {
+		width: 1200px;
+	}
+}
+

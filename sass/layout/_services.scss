@@ -1,0 +1,50 @@
+.whatarewedoing {
+	display: none;
+}
+@media screen and (min-width: 1200px) {
+	.whatarewedoing {
+		display: block;
+	}
+	.whatarewedoing h2 {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		letter-spacing: 0.03em;
+		margin-top: 94px;
+		margin-bottom: 50px;
+		color: #212121;
+	}
+	.whatarewedoing-nav {
+		display: flex;
+		justify-content: center;
+	}
+	.nav__item {
+		margin-right: 30px;
+		margin-bottom: 94px;
+		position: relative;
+	}
+	.whatarewedoing-nav li:last-child {
+		margin-right: 0;
+	}
+	.nav__item-p {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 16px;
+		text-align: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		padding-bottom: 27px;
+		padding-top: 27px;
+		color: #ffffff;
+		background: rgba(47, 48, 58, 0.8);
+	}
+}

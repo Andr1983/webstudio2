@@ -1,0 +1,83 @@
+// секция SVG
+.section__svg {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.antenna__title {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.antenna__paragraph {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.antenna__block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 450px;
+	height: 120px;
+
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+	.section__svg-li {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: -30px;
+		margin-top: -30px;
+	}
+	.antenna {
+		max-width: 354px;
+		flex-basis: calc((100% - 60) / 2);
+		margin-right: 30px;
+		margin-top: 30px;
+	}
+	.antenna__block {
+		height: 120px;
+		width: 354px;
+	}
+	.antenna__title {
+		text-align: left;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.section__svg {
+		margin-top: 94px;
+		margin-bottom: 94px;
+	}
+	.section__svg-li {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+	.antenna {
+		max-width: 270px;
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+	.antenna__block {
+		height: 120px;
+		width: 270px;
+	}
+}
+

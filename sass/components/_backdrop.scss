@@ -1,0 +1,51 @@
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #00000033;
+	transition: opacity 500ms linear, visibility 500ms linear;
+}
+.backdrop_modal {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 450px;
+	background-color: #ffffff;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	padding: 0px 40px 0px 40px;
+}
+.backdrop_modal-close-btn {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	box-sizing: border-box;
+	&:hover {
+		fill: #2196f3;
+		border: 1px solid rgba(11, 171, 219, 0.877);
+		transition: 1s;
+	}
+}
+.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+// +1200
+@media screen and (min-width: 1200px) {
+	.backdrop_modal {
+		height: 581px;
+		width: 528px;
+	}
+}
+

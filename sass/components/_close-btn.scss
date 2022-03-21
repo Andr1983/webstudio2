@@ -1,0 +1,11 @@
+.close-btn {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	line-height: 0;
+
+	&__icon {
+		height: 40px;
+		width: 40px;
+	}
+}
